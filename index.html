@@ -1,0 +1,218 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecureCloud Solutions</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+    <a class="navbar-brand d-flex flex-column align-items-center" href="#" style="font-size:2rem;">
+        <img src="logo.png" alt="SecureCloud Logo" width="80" height="80" class="d-inline-block align-top mb-2">
+        <span>SecureCloud Solutions</span>
+    </a>
+</nav>
+
+  <!-- Intro -->
+  <div class="container text-center">
+    <h2 class="">Quem somos</h2>
+    <p class="lead mb-4">
+      A <strong>SecureCloud Solutions</strong> é uma empresa especializada em <strong>Cloud Computing Corporativo</strong> e <strong>Cibersegurança Gerenciada</strong>.
+      Nossa missão é garantir que empresas de todos os tamanhos possam operar de maneira segura, confiável e escalável em ambientes digitais modernos.
+    </p>
+    <p>Fundada por profissionais apaixonados por tecnologia e inovação:</p>
+    <ul class="list-unstyled mb-3 text-center">
+      <li><strong>Jaaziel Silva</strong> – Responsável pela Cibersegurança</li>
+      <li><strong>Lucas Jaiel</strong> – Responsável pela Cibersegurança</li>
+      <li><strong>Cauã Pablo</strong> – Responsável por Cloud Computing</li>
+      <li><strong>Cosme Cristiano</strong> – Responsável por Cloud Computing</li>
+    </ul>
+    <p>
+      Nossa equipe combina experiência técnica, processos ágeis e compromisso com resultados, apoiando empresas em sua jornada de digitalização segura.
+    </p>
+
+    <!-- Informações sobre serviços -->
+    <div class="row mb-5">
+      <div class="col-md-6">
+        <h3>☁️ Cloud Computing Corporativo</h3>
+        <p>Infraestrutura como Serviço (IaaS), com provisionamento automático de VMs, redes privadas, armazenamento em SSD, e escalabilidade sob demanda. Integração com ambientes como AWS, Azure e Proxmox.</p>
+      </div>
+      <div class="col-md-6">
+        <h3>🔐 Cibersegurança Gerenciada</h3>
+        <p>Monitoramento 24/7 via SIEM, gestão de vulnerabilidades, firewall como serviço (FWaaS), resposta a incidentes e conformidade com a LGPD e ISO 27001. Atendimento por equipe especializada em CSIRT.</p>
+      </div>
+    </div>
+
+    
+
+
+    <!-- Tabs Linux / Windows -->
+    <ul class="nav nav-tabs justify-content-center" id="osTabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="linux-tab" data-toggle="tab" href="#linux" role="tab">Linux</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="windows-tab" data-toggle="tab" href="#windows" role="tab">Windows</a>
+      </li>
+    </ul>
+
+    <div class="tab-content mt-4" id="osTabsContent">
+      <!-- Linux Plans -->
+      <div class="tab-pane fade show active" id="linux" role="tabpanel">
+        <h2 class="text-center">Planos de Cloud Computing - Linux</h2>
+        <div class="row text-center mt-4">
+          <div class="col-md-3 plan-card">
+            <h5>CLOUD PRO 1 GB</h5>
+            <p class="price">R$ 79,00/mês</p>
+            <p class="hourly">Equivalente a R$ 0,11 por hora</p>
+            <button class="btn btn-warning">CONFIGURE</button>
+            <ul>
+              <li>1 GB de memória</li>
+              <li>2 vCPUs</li>
+              <li>20 GB de disco SSD</li>
+              <li>1 TB de transferência</li>
+            </ul>
+          </div>
+          <div class="col-md-3 plan-card popular">
+            <div class="badge">MAIS VENDIDO</div>
+            <h5>CLOUD PRO 2 GB</h5>
+            <p class="price">R$ 109,00/mês</p>
+            <p class="hourly">Equivalente a R$ 0,16 por hora</p>
+            <button class="btn btn-warning">CONFIGURE</button>
+            <ul>
+              <li>2 GB de memória</li>
+              <li>2 vCPUs</li>
+              <li>20 GB de disco SSD</li>
+              <li>1 TB de transferência</li>
+            </ul>
+          </div>
+          <div class="col-md-3 plan-card">
+            <h5>CLOUD PRO 4 GB</h5>
+            <p class="price">R$ 179,00/mês</p>
+            <p class="hourly">Equivalente a R$ 0,26 por hora</p>
+            <button class="btn btn-warning">CONFIGURE</button>
+            <ul>
+              <li>4 GB de memória</li>
+              <li>2 vCPUs</li>
+              <li>20 GB de disco SSD</li>
+              <li>1 TB de transferência</li>
+            </ul>
+          </div>
+          <div class="col-md-3 plan-card">
+            <h5>CONFIGURAÇÃO PERSONALIZADA</h5>
+            <p><strong>8 GB a 32 GB</strong></p>
+            <p>A partir de R$ 319,00/mês</p>
+            <button class="btn btn-warning">CONFIGURE</button>
+            <ul>
+              <li>4 a 8 vCPUs</li>
+              <li>20 a 500 GB de disco SSD</li>
+              <li>1 a 2 TB de transferência</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Windows Plans -->
+      <div class="tab-pane fade" id="windows" role="tabpanel">
+        <h2 class="text-center">Planos de Cloud Computing - Windows</h2>
+        <div class="row text-center mt-4">
+          <div class="col-md-3 plan-card">
+            <h5>CLOUD PRO 1 GB</h5>
+            <p class="price">R$ 211,00/mês</p>
+            <p class="hourly">Equivalente a R$ 0,29 por hora</p>
+            <button class="btn btn-warning">CONFIGURE</button>
+            <ul>
+              <li>1 GB de memória</li>
+              <li>2 vCPUs</li>
+              <li>50 GB de disco SSD</li>
+              <li>1 TB de transferência</li>
+            </ul>
+          </div>
+          <div class="col-md-3 plan-card popular">
+            <div class="badge">MAIS VENDIDO</div>
+            <h5>CLOUD PRO 2 GB</h5>
+            <p class="price">R$ 241,00/mês</p>
+            <p class="hourly">Equivalente a R$ 0,33 por hora</p>
+            <button class="btn btn-warning">CONFIGURE</button>
+            <ul>
+              <li>2 GB de memória</li>
+              <li>2 vCPUs</li>
+              <li>50 GB de disco SSD</li>
+              <li>1 TB de transferência</li>
+            </ul>
+          </div>
+          <div class="col-md-3 plan-card">
+            <h5>CLOUD PRO 4 GB</h5>
+            <p class="price">R$ 311,00/mês</p>
+            <p class="hourly">Equivalente a R$ 0,43 por hora</p>
+            <button class="btn btn-warning">CONFIGURE</button>
+            <ul>
+              <li>4 GB de memória</li>
+              <li>2 vCPUs</li>
+              <li>50 GB de disco SSD</li>
+              <li>1 TB de transferência</li>
+            </ul>
+          </div>
+          <div class="col-md-3 plan-card">
+            <h5>CONFIGURAÇÃO PERSONALIZADA</h5>
+            <p><strong>8 GB a 32 GB</strong></p>
+            <p>A partir de R$ 552,20/mês</p>
+            <button class="btn btn-warning">CONFIGURE</button>
+            <ul>
+              <li>4 a 8 vCPUs</li>
+              <li>50 a 500 GB de disco SSD</li>
+              <li>1 a 2 TB de transferência</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cybersecurity Plans -->
+    <section class="mt-5">
+      <h2 class="text-center">Gerenciamento de Cibersegurança</h2>
+      <div class="row text-center justify-content-center mt-4">
+        <div class="col-md-4 plan-card popular">
+          <div class="badge">Mais populares</div>
+          <h5>Norton Small Business</h5>
+          <p class="price"><del>R$ 299,00</del> R$ 199,00/ano</p>
+          <button class="btn btn-warning">ASSINAR AGORA</button>
+          <ul>
+            <li>Até 250 GB de backup na nuvem</li>
+            <li>Proteção contra vírus e ransomware</li>
+            <li>Navegador seguro e cofre de senhas</li>
+            <li>Atualizador automático de software</li>
+            <li>Identificação de vazamentos na dark web</li>
+          </ul>
+        </div>
+        <div class="col-md-4 plan-card">
+          <h5>Norton Small Business Premium</h5>
+          <p class="price"><del>R$ 549,00</del> R$ 299,00/ano</p>
+          <button class="btn btn-warning">ASSINAR AGORA</button>
+          <ul>
+            <li>Tudo do plano Business</li>
+            <li>Backup de até 500 GB</li>
+            <li>VPN para acesso remoto seguro</li>
+            <li>Atualizador de drivers e estabilidade</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white mt-5 py-3 text-center">
+    <div class="container">
+      <span>&copy; 2025 SecureCloud Solutions. Todos os direitos reservados.</span>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

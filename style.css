@@ -1,0 +1,101 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h3 {
+  color: #004080;
+  font-weight: bold;
+}
+h2{
+    margin-top: 60px;
+  color: #004080;
+  font-weight: bold;
+}
+
+.plan-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+}
+
+.plan-card h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #6a1b9a;
+  font-weight: 600;
+}
+
+.hourly {
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.plan-card ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.plan-card ul li::before {
+  content: '✔ ';
+  color: #28a745;
+  margin-right: 4px;
+}
+
+.plan-card .btn-warning {
+  background-color: #f7941e;
+  border: none;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.popular {
+  border: 2px solid #007bff;
+  position: relative;
+}
+
+.popular .badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #00c2ff;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link {
+  font-weight: bold;
+  color: #555;
+}
+
+.nav-tabs .nav-link.active {
+  color: #007bff;
+  border-color: #007bff #007bff #fff;
+}
+
+footer {
+  background-color: #1a1a1a;
+}
+
